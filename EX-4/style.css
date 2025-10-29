@@ -1,0 +1,80 @@
+.card{
+
+    margin: auto;
+    width: 500px;
+    height: inherit;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card .profileImage{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center; 
+}
+.profileBanner img{
+    width: 480px;
+    height: 150px;
+    object-fit: cover;
+    border : rgb(255, 255, 255) solid 3px;
+    border-radius: 50px;
+    margin-top : 10px;
+}
+.profileImage img {
+    width: 75px;
+    height: 75px;
+    display :block;
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: -50px ;
+}
+.profileAndImage .username{
+    font-size: 10px;
+    text-align: center;
+    font : small-caps bold 24px/1 sans-serif;
+    color : white;
+}
+.profileAndImage .role {
+    font-size: 10px;
+    text-align: center;
+    color : grey;
+    margin : 0 150px 0 150px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.card .profileBio .bio {
+    padding : 10px 0 10px 0;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.profileBio .description{
+
+    color : white;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin : 10px 75px 10px 75px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.card .contact {
+    display :flex;
+    justify-content: space-evenly;
+    padding : 10px;
+}
+.Social img {
+    width : 50px ;
+    height : 50px
+}
+

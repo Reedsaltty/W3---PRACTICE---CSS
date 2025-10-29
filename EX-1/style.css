@@ -1,0 +1,38 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    display :inline-block;
+    background-color: white ;
+    margin: 20px 100px 20px 100px; 
+    border-radius: 10px;
+    padding : 20px;
+}
+
+.box > button {
+    border-radius: 30px;
+}
+.but1{
+    background-color: blue;
+    color:white;
+}
+.but2{
+    background-color:lime;
+    color: black;
+}
+.but3{
+    background-color: tomato;
+    color: black;
+}
+
+
+
+
